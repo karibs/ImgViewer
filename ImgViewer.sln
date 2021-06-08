@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImgViewer", "ImgViewer.csproj", "{6A0E8107-46B7-4813-B836-236F03AAF02A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestReculsive", "..\testFunction\TestReculsive.csproj", "{9F713CA4-528D-4080-BF1C-7AFBEF00864D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6A0E8107-46B7-4813-B836-236F03AAF02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A0E8107-46B7-4813-B836-236F03AAF02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A0E8107-46B7-4813-B836-236F03AAF02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F713CA4-528D-4080-BF1C-7AFBEF00864D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F713CA4-528D-4080-BF1C-7AFBEF00864D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F713CA4-528D-4080-BF1C-7AFBEF00864D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F713CA4-528D-4080-BF1C-7AFBEF00864D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

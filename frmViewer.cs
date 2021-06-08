@@ -22,7 +22,7 @@ namespace ImgViewer
 
         private void frmViewer_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         //드라이브 목록 얻어서 콤보박스에 입력

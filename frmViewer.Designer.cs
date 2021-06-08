@@ -34,9 +34,9 @@ namespace ImgViewer
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.lstDir = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imglstTmp = new System.Windows.Forms.ImageList(this.components);
             this.lblPath = new System.Windows.Forms.Label();
             this.picSelect = new System.Windows.Forms.PictureBox();
-            this.imglstTmp = new System.Windows.Forms.ImageList(this.components);
             this.tipPath = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -104,6 +104,12 @@ namespace ImgViewer
             this.columnHeader1.Text = "드라이브 및 폴더";
             this.columnHeader1.Width = 200;
             // 
+            // imglstTmp
+            // 
+            this.imglstTmp.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit;
+            this.imglstTmp.ImageSize = new System.Drawing.Size(16, 16);
+            this.imglstTmp.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // lblPath
             // 
             this.lblPath.AutoSize = true;
@@ -125,12 +131,6 @@ namespace ImgViewer
             this.picSelect.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSelect.TabIndex = 0;
             this.picSelect.TabStop = false;
-            // 
-            // imglstTmp
-            // 
-            this.imglstTmp.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit;
-            this.imglstTmp.ImageSize = new System.Drawing.Size(16, 16);
-            this.imglstTmp.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // frmViewer
             // 
